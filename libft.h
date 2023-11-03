@@ -6,7 +6,7 @@
 /*   By: fgomes-f <fgomes-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/13 15:41:04 by fgomes-f          #+#    #+#             */
-/*   Updated: 2023/09/23 14:18:08 by fgomes-f         ###   ########.fr       */
+/*   Updated: 2023/10/30 18:29:51 by fgomes-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -100,5 +100,7 @@ size_t	ft_strlen_gnl(const char *str);
 
 void	ft_split_free(char **array_of_strings);
 size_t	ft_strclen(const char *s, char c);
+int    ft_strcmp(char *s1, char *s2);
+long	ft_atol(char *str);
 
 #endif

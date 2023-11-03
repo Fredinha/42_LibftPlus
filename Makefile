@@ -6,7 +6,7 @@
 #    By: fgomes-f <fgomes-f@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/09 16:17:49 by fgomes-f          #+#    #+#              #
-#    Updated: 2023/09/23 14:16:36 by fgomes-f         ###   ########.fr        #
+#    Updated: 2023/10/30 18:30:18 by fgomes-f         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,7 +22,7 @@ PRINTF = ft_printf.c function_c.c function_s.c function_d_i.c function_u.c funct
 
 GNL = get_next_line.c get_next_line_utils.c
 
-EXTRA = ft_split_free.c ft_strclen.c
+EXTRA = ft_split_free.c ft_strclen.c ft_strcmp.c ft_atol.c
 
 SRC = ${LIBFT_1} ${LIBFT_2} ${LIBFT_BONUS} ${PRINTF} ${GNL} ${EXTRA}
 
